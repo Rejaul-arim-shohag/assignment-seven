@@ -1,0 +1,29 @@
+.player{
+    width : 300px;
+    display: inline-block;
+    border : 2px solid #fa8231;
+    margin : 30px;
+    padding : 5px;
+    box-shadow: 5px 8px 28px 1px gray;
+}
+.name{
+    color:#fa8231;
+    font-size: 20px;
+}
+.salary{
+    color: #4b6584;
+}
+img{
+    width:250px;
+    height: 250px;
+}
+.selectBtn{
+    width : 90px;
+    height : 35px;
+    background: #fa8231;
+    border : 1px solid #a55eea;
+    border-radius: 20px;
+    margin:10px 0px;
+    font-size:16px;
+    cursor : pointer;
+}
