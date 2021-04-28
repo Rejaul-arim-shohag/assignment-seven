@@ -1,5 +1,7 @@
 import React from 'react';
-import './Player.css'
+import './Player.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 
 const Player = (props) => {
     // console.log(props)
@@ -10,7 +12,7 @@ const Player = (props) => {
             <div>
                <h3 class="name">{name}</h3>
                <p class="salary">salary : {salary}$</p>
-               <button class="selectBtn" onClick={()=>handlePlayerSelect(props.player)}>Select</button>
+               <button class="selectBtn" onClick={()=>handlePlayerSelect(props.player)}><FontAwesomeIcon icon={faUserPlus} /> Select</button>
                <img src={img} alt=""/>
             </div>
         </div>

@@ -21,7 +21,8 @@ const handlePlayerSelect=(player)=>{
       <div className="app-container">
       <h2> Player Loaded : {players.length}</h2>
       <h2>Selected players: {cart.length}</h2>
-      <Cart cart={cart} handlePlayerSelect={handlePlayerSelect}></Cart>
+      <Cart cart={cart}></Cart>
+      
           {
             players.map(player=><Player player={player} handlePlayerSelect={handlePlayerSelect}></Player>)
           }

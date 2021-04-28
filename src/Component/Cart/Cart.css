@@ -1,0 +1,27 @@
+.cart{
+    width: 400px;
+    min-height: 200px;
+    text-align: center;
+    border: 1px solid #F7874A;
+    margin: 0 auto;
+}
+.cost{
+    color : #F7874A;
+    font-size : 25px;
+}
+small{
+    color : #636e72;
+    font-size: 20px;
+    font-weight: 500;
+}
+.salary{
+    margin-left: 10px;
+}
+.selcetPlayer{
+    margin: 0;
+    padding : 0;
+    border-top: 1px solid #F7874A;
+    font-size: 20px;
+    color :#636e72;
+    font-weight: 700;
+}
